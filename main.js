@@ -11,7 +11,7 @@ function D(){
     fabric.Image.fromURL("player.png",function(Img){
     C=Img;
     C.scaleToWidth(150);
-    C.scaleToHeigth(140);
+    C.scaleToHeight(140);
     C.set({
 top:Y,
 left:X
@@ -24,7 +24,7 @@ function E(Q){
     fabric.Image.fromURL(Q,function(Img){
     B=Img;
     B.scaleToWidth(Z);
-    B.scaleToHeigth(A);
+    B.scaleToHeight(A);
     B.set({
 top:Y,
 left:X
