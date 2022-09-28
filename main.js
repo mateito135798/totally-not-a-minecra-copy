@@ -34,7 +34,7 @@ left:X
 }
 window.addEventListener("keydown",tecla);
 function tecla(e){
-var tecla_presionada=e.keyCode;
+tecla_presionada=e.keyCode;
 if (tecla_presionada=="38"){
     arriba();
 };
